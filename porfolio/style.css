@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: black;
+}
+p{
+    color: yellowgreen;
+}
+span{
+    color: goldenrod;
+}
+input{
+    padding: 3px 15px;
+    border-radius: 2px;
+}
+.main-content{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background: rgb(75, 156, 50);
+    margin: auto;
+}
+.welcome{
+    color: white;
+    font-size: 100px;
+    margin-top: 150px;
+    margin-left: 00px;
+}
+.port{
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.personal{
+    padding: auto;
+    text-align: justify;
+}
+.love{
+    padding: auto;
+    text-align: justify;
+}
+.family{
+    padding: auto;
+    text-align: justify;
+}
+.head{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.edu{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cert {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+.cert td, .cert th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.cert th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(75, 156, 50);
+    color: white;
+}
+.skills{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nece{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+    display: flex;
+    gap: 40px;
+    margin-left: 600px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .gal{
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.images{
+    display: flex;
+    gap: 50px;
+    margin-left: 300px;
+    width: 100%;
+    height: 400px;
+} */
